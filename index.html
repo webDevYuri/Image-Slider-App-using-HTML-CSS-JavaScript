@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/lambo/item-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Image Slider</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="brand">SLIDER</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <button class="prev" id="prevButton"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="next" id="nextButton"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="item">
+            <div class="item-description">
+                <h1 class="item-name">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-1.png" alt="" class="itemImage" id="orangeCar">
+                <button class="explore">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub">Person </span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item" id="white">
+            <div class="item-description">
+                <h1 class="item-name" style="color: white">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="border:2px solid white; color: white;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-2.png" alt="" class="itemImage" id="whiteCar">
+                <button class="explore" style="border: 1px solid white; color: white;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: white;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: white;">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: white;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: white;">Person </span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: white;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" id="blue">
+            <div class="item-description">
+                <h1 class="item-name" style="color: #006eff">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: #006eff; border: 2px solid #006eff;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-3.png" alt="" class="itemImage" id="blueCar">
+                <button class="explore" style="color: #006eff; border: 1px solid #006eff;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: #006eff"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: #006eff">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: #006eff"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: #006eff">Person </span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: #006eff"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" id="yellow">
+            <div class="item-description">
+                <h1 class="item-name" style="color: #ffcc00;">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: #ffcc00; border: 2px solid #ffcc00;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-4.png" alt="" class="itemImage" id="yellowCar">
+                <button class="explore" style="color: #ffcc00; border: 1px solid #ffcc00;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: #ffcc00;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: #ffcc00;">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: #ffcc00;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: #ffcc00;">Person</span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: #ffcc00;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="item" id="grey">
+            <div class="item-description">
+                <h1 class="item-name" style="color: #808080;">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: #808080; border: 2px solid #808080;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-5.png" alt="" class="itemImage" id="grayCar">
+                <button class="explore" style="color: #808080; border: 1px solid #808080;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: #808080;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: #808080;">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: #808080;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: #808080;">Person</span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: #808080;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="item" id="light-gray">
+            <div class="item-description">
+                <h1 class="item-name" style="color: #f0f0f0;">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text" style="color: #f0f0f0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: #f0f0f0; border: 2px solid #f0f0f0;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-6.png" alt="" class="itemImage" id="lightGrayCar">
+                <button class="explore" style="color: #f0f0f0; border: 1px solid #f0f0f0;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: #f0f0f0;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: #f0f0f0;">MPH</span></h1>
+                        <p class="details-desc" style="color: #f0f0f0;">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: #f0f0f0;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: #f0f0f0;">Person</span></h1>
+                        <p class="details-desc" style="color: #f0f0f0;">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: #f0f0f0;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc" style="color: #f0f0f0;">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="item" id="red">
+            <div class="item-description">
+                <h1 class="item-name" style="color: red;">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: red; border: 2px solid red;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-7.png" alt="" class="itemImage" id="redCar">
+                <button class="explore" style="color: red; border: 1px solid red;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: red;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: red;">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: red;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: red;">Person</span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: red;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="item" id="green">
+            <div class="item-description">
+                <h1 class="item-name" style="color: green;">
+                    Lamborghini Revuelto
+                </h1>
+                <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est eveniet non iusto sed, quo beatae repudiandae quasi explicabo excepturi. Totam distinctio atque soluta at dolore assumenda pariatur repellendus nihil!</p>
+                <button class="buy-now" style="color: green; border: 2px solid green;">Buy now</button>
+            </div>
+            <div class="item-image">
+                <img src="img/lambo/item-8.png" alt="" class="itemImage" id="greenCar">
+                <button class="explore" style="color: green; border: 1px solid green;">Explore</button>
+            </div>
+            <div class="more-details">
+                <div class="card-one" id="card">
+                    <i class="fa-solid fa-gauge" id="icon" style="color: green;"></i>
+                    <div class="text">
+                        <h1 class="details-name">+150 <span id="sub" style="color: green;">MPH</span></h1>
+                        <p class="details-desc">Top Speed</p>
+                    </div>
+                </div>
+                <div class="card-two" id="card">
+                    <i class="fa-solid fa-car-side" id="icon" style="color: green;"></i>
+                    <div class="text">
+                        <h1 class="details-name">4 <span id="sub" style="color: green;">Person</span></h1>
+                        <p class="details-desc">Seating for</p>
+                    </div>
+                </div>
+                <div class="card-three" id="card">
+                    <i class="fa-solid fa-car" id="icon" style="color: green;"></i>
+                    <div class="text">
+                        <h1 class="details-name">&dollar;59,499</h1>
+                        <p class="details-desc">Price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
